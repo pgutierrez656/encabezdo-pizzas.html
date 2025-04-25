@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General */
+body {
+  font-family: 'Roboto'; 
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f2;
+}
+
+/* Menú */
+.menu {
+  background-color: #e4002b;
+  padding: 10px 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: sticky;
+  z-index: 999;
+  border-bottom: 2px solid white; 
+  margin-bottom: 10px; 
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.apartado a:hover {
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  background-color: #f7bc00;
+  color: #e4002b;
+}
+
+/* Títulos decorativos */
+.titulo {
+    font-family: 'Great Vibes';
+    font-size: 3rem;
+    text-align: center;
+    margin: 100px 0 30px;
+    color:#e4002b;
+  }
+  
+/* Estilo de la tabla */
+.table-container {
+    max-height: 300px;
+    overflow-y: auto; 
+    margin: 0 auto; 
+  }
+  
+  table {
+    width: 55%; 
+    margin: 0 auto; 
+    border: 0px;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 20px; 
+    overflow: hidden;
+  }
+  
+  th {
+    background-color: #e4002b; 
+    color: white;
+    padding: 18px; 
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #FFFFFF; 
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #FFF0E0; 
+  }
+  
+  td {
+    text-align: center; 
+    padding: 18px;
+  }
+  
+  table img {
+    object-fit: cover; 
+    border-radius: 15px; 
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+/* Botón de WhatsApp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    color: #25D366;
+    font-size: 50px;
+  }
+    
+  .whatsapp:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+  }
+  
+/* Pie de página */
+.pie {
+  text-align: center;
+  padding: 20px;
+  background-color: #e4002b;
+  color: white;
+  margin-top: 40px;
+}
